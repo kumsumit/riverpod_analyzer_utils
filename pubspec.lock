@@ -188,18 +188,20 @@ packages:
   freezed:
     dependency: "direct dev"
     description:
-      name: freezed
-      sha256: "9ec135696554923c59339d46dd50adbaf81099be06ffda0fb9c06f410aea9137"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "1f17222c340df707481fb353645c3e27f724f8b8"
+      url: "https://github.com/kumsumit/freezed.git"
+    source: git
     version: "4.0.0-dev.3"
   freezed_annotation:
     dependency: "direct main"
     description:
-      name: freezed_annotation
-      sha256: "7294967ff0a6d98638e7acb774aac3af2550777accd8149c90af5b014e6d44d8"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "1c1f609cc78aadd1cf81869518834966902499b2"
+      url: "https://github.com/kumsumit/freezed_annotation.git"
+    source: git
     version: "3.1.0"
   frontend_server_client:
     dependency: transitive
